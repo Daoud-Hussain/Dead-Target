@@ -9,8 +9,8 @@ A Game with real life effects, high definition graphics and machine independence
 <img src="Mockups/Web/contact.PNG">
 
 ## Mobile Mockups
-<img src="Mockups/Mobile/Home screen.PNG">
-<img src="Mockups/Mobile/signup.PNG">
-<img src="Mockups/Mobile/signin.PNG">
+<img src="Mockups/Mobile/Home screen.png">
+<img src="Mockups/Mobile/signup.png">
+<img src="Mockups/Mobile/signin.png">
 <img src="Mockups/Mobile/Player customization.png">
 <img src="Mockups/Mobile/Arsenal selection.png">
