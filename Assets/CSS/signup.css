@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto+Condensed&display=swap');
+    font-family: 'Poppins', sans-serif;
+}
+.main{
+    background: #000000;
+    height: 100vh;
+    color: white;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 175px;
+}
+h1{
+    font-size: 25px;
+    font-weight: 700;
+}
+img{
+    height: 33rem;
+    padding-right: 50px;
+}
+label{
+    font-size: small;
+}
+button{
+    background: #5F0103;
+    color: white;
+    width: 200px;
+    height: 30px;
+    margin-left: 5px;
+}
+.form{
+    /* background: red; */
+    height: 479px;
+    width: 300px;
+    border: white solid 1px;
+    border-radius: 5px;
+    padding-left: 50px;
+    padding-top: 20px;
+}
+input{
+    width: 200px;
+    height: 20px;
+}
