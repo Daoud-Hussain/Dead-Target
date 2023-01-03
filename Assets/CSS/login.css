@@ -11,7 +11,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-left: 175px;
+    padding-right: 175px;
 }
 h1{
     font-size: 30px;
@@ -19,8 +19,8 @@ h1{
 }
 img{
     height: 34rem;
-    padding-right: 60px;
     padding-bottom: 10px;
+    margin-left: -50px;
 }
 label{
     font-size: small;
@@ -28,8 +28,9 @@ label{
 button{
     background: #5F0103;
     color: white;
-    width: 245px;
+    width: 246.5px;
     height: 40px;
+    text-align: center;
     font-weight: 600;
     letter-spacing: 0.5px;
 }
@@ -38,16 +39,19 @@ button:hover{
     opacity: 0.9;
 }
 .form{
-    height: 430px;
-    width: 300px;
+    height: 330px;
+    width: 290px;
     border: white solid 1px;
     border-radius: 10px;
-    padding-left: 50px;
-    padding-top: 27px;
+    padding-left: 40px;
+    padding-top: 40px;
+}
+.left{
+    padding-right: 60px;
 }
 p{
     font-size: small;
-    padding-left: 12px;
+    padding-left: 8px;
 }
 p:hover{
     cursor: pointer;
@@ -58,5 +62,5 @@ span{
 input{
     width: 230px;
     height: 30px;
-    padding-left: 8px;
+    padding-left: 9px;
 }
