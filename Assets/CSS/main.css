@@ -39,3 +39,7 @@ button{
     font-weight: 600;
     letter-spacing: 1px;
 }
+button:hover{
+    cursor: pointer;
+    opacity: 0.9;
+}

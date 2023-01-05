@@ -1,0 +1,30 @@
+{
+    "name": "dead-target",
+    "version": "1.0.0",
+    "description": "Dead Target is a game that reduces human stress by giving players a pleasure of playing in real world. The player feel **machine and user independence** after playing Dead Target. While playing Dead Target, Player can be able to control each and everything by himself. Every action performed by user will have reaction according to his own will. It proves to be exceptional in uplifting player’s mood and repelling his dullness. It instantly takes them to a new world, and their minds will forget disturbing events for the time being. Dead Target has high-definition graphics and images. Quality Animations and realistic effects makes it highly naturalistic. It can also be played using **VR box**.",
+    "main": "index.js",
+    "scripts": {
+        "start": "node src/index.js",
+        "dev": "nodemon src/index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Daoud-Hussain/Dead-Target.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Daoud-Hussain/Dead-Target/issues"
+    },
+    "homepage": "https://github.com/Daoud-Hussain/Dead-Target#readme",
+    "dependencies": {
+        "dotenv": "^16.0.3",
+        "express": "^4.18.2",
+        "hbs": "^4.2.0",
+        "mongoose": "^6.8.2"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.20"
+    }
+}

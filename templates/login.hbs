@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="../Assets/CSS/login.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+     <style type="text/css">
+        *{
+            padding: 0;
+            margin: 0;
+            @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto+Condensed&display=swap');
+            font-family: 'Poppins', sans-serif;
+        }
+        .main{
+            background: #000000;
+            height: 100vh;
+            color: white;  
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding-right: 175px;
+        }
+        h1{
+            font-size: 30px;
+            font-weight: 700;
+        }
+        img{
+            height: 34rem;
+            padding-bottom: 10px;
+            margin-left: -95px;
+        }
+        label{
+            font-size: small;
+        }
+        button{
+            background: #5F0103;
+            color: white;
+            width: 100%;
+            height: 40px;
+            text-align: center;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+        }
+        button:hover{
+            cursor: pointer;
+            opacity: 0.9;
+        }
+        .form{
+            min-height: 330px;
+            width: 290px;
+            border: white solid 1px;
+            border-radius: 10px;
+            padding: 40px;
+        }
+        .right{
+            padding-right: 35px;
+        }
+        p{
+            font-size: small;
+            color: white;
+            text-align: center;
+        }
+        a{
+            text-decoration: none;
+        }
+        p:hover{
+            cursor: pointer;
+        }
+        span{
+            font-weight: 900;
+        }
+        input{
+            box-sizing: border-box;
+            width: 100%;
+            height: 30px;
+            padding-left: 9px;
+        }
+
+     </style>
+</head>
+<body>
+    <main class="main">
+
+        <div class="left">
+            <img src="../Images/Person.png" alt="">
+        </div>
+
+
+        <div class="right">
+            <form class="form" action="/login" method="POST">
+                <h1>Login</h1> <br>
+                <label for="email">Email</label> <br>
+                <input required="true" placeholder="Username@gmail.com" type="text" name="email"><br><br>
+                <label for="password">Password</label> <br>
+                <input required="true" placeholder="Password" type="password" name="password"><br><br>
+                <button>Login</></button> <br> <br>
+                <a href="/signup" > <p>Don't have an Account? <span>Sign UP</span> </p></a>
+            </form>
+        </div>
+
+    </main>
+
+</body>
+</html>

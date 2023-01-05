@@ -20,7 +20,7 @@ h1{
 img{
     height: 34rem;
     padding-bottom: 10px;
-    margin-left: -50px;
+    margin-left: -95px;
 }
 label{
     font-size: small;
@@ -46,8 +46,8 @@ button:hover{
     padding-left: 40px;
     padding-top: 40px;
 }
-.left{
-    padding-right: 60px;
+.right{
+    padding-right: 35px;
 }
 p{
     font-size: small;
