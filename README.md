@@ -21,7 +21,7 @@ For users who want to refresh their minds from the stress of life, **Dead Target
 <img width=890 src="Mockups/Web/login.PNG">
 <img width=890 src="Mockups/Web/gameScreen.PNG">
 <img width=890 src="Mockups/Web/arsenalSelection.PNG">
-<img width=890 src="Mockups/Web/screen-0.jpg">
+<img width=890 src="Mockups/Web/gameScenario.jpg">
 
 ## Mobile Mockups
 <img width=200 height=400 src="Mockups/Mobile/Home screen.png"> <img width=190 height=400 src="Mockups/Mobile/Signup.png">
